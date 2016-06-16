@@ -1,6 +1,6 @@
 
 public interface Cloneable {
 	
-	Object cloneSheep();
+	Object clone();
 
 }

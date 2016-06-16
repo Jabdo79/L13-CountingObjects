@@ -14,7 +14,7 @@ public class CountTestApp {
 		//count 2 blackie
 		CountUtil.count(baa, 2);
 		//clone blackie, change name to dolly, count 3 times
-		Sheep clone = baa.cloneSheep();
+		Sheep clone = baa.clone();
 		clone.setName("Dolly");
 		CountUtil.count(clone, 3);
 		//count the first sheep again one time

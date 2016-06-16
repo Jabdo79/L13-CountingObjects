@@ -28,10 +28,9 @@ public class Sheep implements Countable, Cloneable {
 		return name;
 	}
 
-	public Sheep cloneSheep() {
+	public Sheep clone() {
 		Sheep clone = new Sheep();
 		clone.setName(this.getName());
-		this.resetCount();
 		return clone;
 	}
 
