@@ -1,4 +1,9 @@
-
+/*Jonathan Abdo
+ * create 2 classes that implement a countable interface,
+ * then create a class that counts any objects that implement countable.
+ * 
+ * (uses InputCheck.java https://github.com/Jabdo79/InputCheck)
+ */
 public class CountTestApp {
 
 	public static void main(String[] args) {
